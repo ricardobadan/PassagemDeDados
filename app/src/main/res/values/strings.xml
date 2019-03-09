@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ConfiguracaoPersonagem</string>
+
+    <string name="anao">Anão</string>
+    <string name="mago">Mago</string>
+    <string name="assassino">Assassino</string>
+    <string name="arqueiro">Arqueiro</string>
+    <string name="guerreiro">Guerreiro</string>
+
+</resources>

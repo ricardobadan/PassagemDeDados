@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classes">
+        <item>@string/mago</item>
+        <item>@string/guerreiro</item>
+        <item>@string/assassino</item>
+        <item>@string/arqueiro</item>
+        <item>@string/anao</item>
+
+    </string-array>
+</resources>

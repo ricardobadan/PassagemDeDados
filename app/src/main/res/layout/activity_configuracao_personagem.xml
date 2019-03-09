@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ConfiguracaoPersonagemActivity">
+
+    <TextView
+        style="@style/label_cadastro"
+        android:text="O Meu Lugar"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        style="@style/label_cadastro"
+        android:text="Apelido:"/>
+
+    <EditText
+        android:id="@+id/etApelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira seu apelido."/>
+
+    <TextView
+        style="@style/label_cadastro"
+        android:text="Raça:"/>
+
+    <Spinner
+        android:id="@+id/spClasses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/classes"/>
+
+    <TextView
+        style="@style/label_cadastro"
+        android:text="Sexo:"/>
+
+    <RadioGroup
+        android:id="@+id/rgSexo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbFeminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feminino"
+            android:layout_weight="0.5"/>
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jogar"
+        android:id="@+id/btJogar"/>
+</LinearLayout>
